@@ -1,0 +1,145 @@
+.ratestar-header-cntr {
+	background-color: $color-2;
+	padding: 25px 15px;
+	h1 {
+		font-size: 30px;
+		line-height: 26px;
+		color: #000;
+		font-weight: 400;
+		padding-bottom: 5px;	
+	}
+
+	h6 {
+		line-height: 26px;
+		color: #9b9a9a;
+    	font-size: 14px;
+    	font-weight: 400;
+	}
+
+	h5 {
+		font-size: 14px;
+		line-height: 26px;
+		color: $color-1;
+		font-weight: 400;
+		display: flex;
+		align-items: center;
+		width: 85%;
+		.fa {
+			font-size: 14px;
+			color:#444;
+			padding-left:10px;
+		}
+	}
+
+	h3 {
+		color: #9b9a9a;
+		font-size: 14px;
+		font-weight: 400;
+		margin: 5px 0;
+	}
+	h4 {
+		color: #0062b3;
+		font-size: 14px;
+		font-weight: 400;
+		display: flex;
+		align-items: flex-start;
+	}
+	.ratecode-grd {
+		display: flex;
+		justify-content: space-between;
+		.icon-plus {
+			padding-right: 5px;
+		}
+	}
+
+	.values-list {
+		padding: 0;
+		li {
+			color: #dc0800 !important;
+			display: flex;
+			align-items: flex-start;
+			.fa {
+				font-size: 24px;
+				padding-right: 5px;
+			}
+		}
+	}
+
+	.grid-nse-bse{
+		h3 {
+			font-size: 2.0em;
+			color: #223e6e;
+		}
+	}
+
+	.grid-inrcntr {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 5px 0;
+		h4 {
+			font-weight: 400;
+			font-size: 14px;
+			color: #444343;
+		}
+	}
+
+	.grid-otr {
+		border-right: 1px solid #ccc;
+		&:last-child {
+			border-right:none;
+		}
+	}
+
+	.tab-btn {
+		background-color: #e7e8e9;
+		padding: 8px 15px;
+		color: #444444;
+		font-size: 14px;
+		text-decoration: none;
+		
+	}
+
+	.bse {
+		border-radius: 0 4px 4px 0;
+		margin-left: 2px;
+	}
+
+	.nse {
+		border-radius: 4px 0 0 4px;
+	}
+
+	.star-ratings {
+		background: url(../assets/img/star-rating-sprite.png) repeat-x;
+		font-size: 0;
+		height: 21px;
+		line-height: 0;
+		overflow: hidden;
+		text-indent: -999em;
+		width: 110px;
+		margin: 0 auto;
+		float: left;
+	}
+
+	.rating {
+		background: url(../assets/img/star-rating-sprite.png) repeat-x;
+		background-position: 0 100%;
+		float: left;
+		height: 21px;
+		display: block;
+	}
+	.active {
+		background-color: #444444;
+		color: $color-2;
+	}
+}
+
+@media(min-width: 1200px) {
+	.ratestar-header-cntr {
+		.grid-otr {
+			&:not(:first-child) {
+				padding: 0px 30px;
+			}
+		}
+	}
+}

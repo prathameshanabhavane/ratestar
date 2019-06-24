@@ -1,0 +1,24 @@
+
+.navbar-cntr {
+	padding: 3px;
+}
+
+
+.login {
+	width: 100%;
+	text-align: right;
+	font-size: 16px;
+	color: $color-4;
+	text-decoration: none;
+	&:hover {
+		color: $color-4;
+		text-decoration: none;
+	}
+}
+
+@media(max-width: 991px) {
+	.login {
+		width: auto;
+		padding-right: 15px;
+	}
+}

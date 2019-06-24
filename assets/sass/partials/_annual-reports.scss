@@ -1,0 +1,56 @@
+.annual-cntr {
+	background-color: $color-2;
+	padding: 25px 15px 30px;
+	h2 {
+		font-size: 22px;
+	}
+	ul {
+		list-style-type: none;
+		padding: 0;
+		display: flex;
+		li {
+			padding: 15px 30px;
+			padding-top: 8px;
+			position: relative;
+			&:after {
+				content: '';
+				position: absolute;
+				top: 30%;
+				right: 0;
+				background-color: #ccc;
+				height: 40%;
+				width: 1px;
+			}
+			&:last-child {
+				&:after {
+					content: none;
+				}
+			}
+			a {
+
+			}
+		}
+	}
+
+	.annual-reportgrid {
+		display: flex;
+		align-items: center;
+	}
+}
+
+@media(max-width: 767px) {
+	.annual-cntr {
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+			margin-left: -24px;
+			li {
+				padding: 15px 24px;
+			}
+		}
+
+		.annual-reportgrid {
+			display: block;
+		}
+	}
+}

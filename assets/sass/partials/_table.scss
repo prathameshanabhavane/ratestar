@@ -1,0 +1,65 @@
+.sec-table {
+	padding-top: 65px;
+	h2 {
+		font-size: 28px;
+		color: $color-1;
+		padding-bottom: 20px;
+		span {
+			font-size: 20px;
+			color: #777;
+		}
+	}
+	.table-cntr {
+		background: $color-2;
+		padding: 50px 15px;
+	}
+	thead {
+		th {
+			text-align: center;
+			border: 0;
+			color: #0062b3;
+		}
+	}
+	th {
+		font-weight: 400;
+	}
+	td,th {
+		font-size: 14px;
+	}
+
+	.bold-header {
+		td,th {
+			color: $color-1;
+			font-weight: 600;
+		}
+	}
+
+	.normal-header {
+		td, th {
+			color: $color-1;
+			font-weight: 400;
+		}
+	}
+
+	.table-striped tbody tr:nth-of-type(odd) {
+		background-color: #f9f9f9;
+	}
+
+	.fa {
+		font-size: 18px;
+		color: #0062b3;
+	}
+
+	.accordion-toggle  {
+		cursor: pointer;
+	}
+
+	.accordion-toggle .fa-angle-down {
+		transform: rotate(0);
+	}
+
+	.accordion-toggle.collapsed .fa-angle-down {
+		transform: rotate(180deg);
+	}
+}
+

@@ -1,0 +1,27 @@
+$font-stack   : Helvetica, sans-serif;
+$primary-color: red;
+$secondary-color : violet;
+$color-1 : #000;
+$color-2 : #fff;
+$color-3 : #f1f1f1;
+$color-4 : #979595;
+body {
+	background-color: $color-3;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	position: relative;
+}
+
+@import "partials/nav.scss";
+@import "partials/header.scss";
+@import "partials/footer";
+@import "partials/search";
+@import "partials/secondary-header";
+@import "partials/table";
+@import "partials/news-update";
+@import "partials/investor";
+@import "partials/annual-reports";
+@import "partials/summary-pattern";
+@import "partials/ratestar-header";
+@import "partials/graph";
+@import "partials/common";

@@ -1,0 +1,34 @@
+
+
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+select:focus,
+.form-control:focus {
+	outline: none;
+	box-shadow:none;
+}
+.bg-dark {
+	background-color: $color-1 !important;
+}
+.bg-grey {
+	background-color: #ededf1 !important;
+}
+
+h2 {
+	font-size: 22px;
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1246px;
+	}
+}
+
+
+@media(max-width: 767px) {
+	.sm-pt15{
+		padding-top: 15px;
+	}
+}
